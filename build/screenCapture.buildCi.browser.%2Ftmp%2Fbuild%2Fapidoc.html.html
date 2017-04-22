@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.arduino-firmata.arduino-firmata">
+            function <span class="apidocSignatureSpan"></span>arduino-firmata
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.arduino-firmata.EventEmitter2">
             function <span class="apidocSignatureSpan">arduino-firmata.</span>EventEmitter2
             <span class="apidocSignatureSpan">(conf)</span>
@@ -449,6 +458,31 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.arduino-firmata" id="apidoc.module.arduino-firmata">module arduino-firmata</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.arduino-firmata.arduino-firmata" id="apidoc.element.arduino-firmata.arduino-firmata">
+        function <span class="apidocSignatureSpan"></span>arduino-firmata
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ArduinoFirmata() {
+  this.status = ArduinoFirmata.Status.CLOSE;
+  this.wait_for_data = 0;
+  this.execute_multi_byte_command = 0;
+  this.multi_byte_channel = 0;
+  this.stored_input_data = [];
+  this.parsing_sysex = false;
+  this.sysex_bytes_read = 0;
+  this.digital_output_data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  this.digital_input_data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  this.analog_input_data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  this.boardVersion = null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
